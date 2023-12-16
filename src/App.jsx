@@ -4,6 +4,7 @@ import Analytics from "./pages/Analytics";
 import Brand from "./pages/Brand";
 import DThreePaiChart from "./pages/DThreePei";
 import DThreeHistogram from "./pages/DThreeHistogram";
+import Error from "./pages/Error";
 import PreLoader from "./components/Preloader/PreLoader";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/brand" element={<Brand />} />
             <Route path="/dthreepei" element={<DThreePaiChart />} />
             <Route path="/dthreehistogram" element={<DThreeHistogram />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </>
       )}
