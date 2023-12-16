@@ -24,7 +24,7 @@ A React.js-based Content Management System (CMS) is a modern, efficient, and dyn
 - Run project in browser for command - yarn dev
 
 Runs the live app in browser.\
-Open [netlify](google.com) to view it in your browser.
+Open [netlify](https://hishabee-dashboard.netlify.app/) to view it in your browser.
 
 ## How to use the dashboard ?
 
